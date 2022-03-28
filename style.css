@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    width: 100%;
+    max-width: 100%;
+}
+
+main p{
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    background-color: #00224c;
+    color: white;
+    font-family: sans-serif;
+}
+
+main textarea{
+    width: 100%;
+    border: 1px solid rgb(71, 61, 61);
+    outline: none;
+    border-radius: 10px;
+    min-height: 120px;
+}
+
+main select{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    background-color: #00224c;
+    color: rgb(233, 233, 233);
+}
+
+main select:hover{
+    background-color: #0a366c;
+    color: rgb(233, 233, 233);
+}
+
+#footerp{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#about{
+    text-align: center;
+    font-family: sans-serif;
+}
+a{
+    font-family: emoji; 
+    font-variant: all-petite-caps;
+    font-size: 1.5rem!important;
+}

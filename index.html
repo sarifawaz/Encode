@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title id="title">Sari's project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav id="navbar" class="navbar navbar-light bg-light mb-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://sarifawaz.github.io/Encode/" target="_blank">
+            EnCode & DeCode
+          </a>
+        </div>
+    </nav>
+
+    <main id="app">
+        <select id="select">
+            <option value="encode">EnCode</option>
+            <option value="decode">DeCode</option>
+        </select>
+
+        <textarea id="text" placeholder="Type (or Paste) to encode/decode below..."></textarea>
+
+        <p>Result</p>
+        <textarea id="result"></textarea>
+    </main>
+
+    <div class="card">
+        <div id="about" class="card-header">
+          About This Site
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p id="footerp">Do you have to deal with Base64 format? Then this site is perfect for you! Use our online app to encode or decode your data.</p>
+          </blockquote>
+        </div>
+      </div>
+
+<script src="script.js"></script>
+</body>
+</html>
